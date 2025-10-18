@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <!-- bar -->
+        <div class="bar">
+            <div class="logo">
+                <img src="img/logo.jpg">
+            </div>
+            <div class="pages">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="apps.html">apps</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <table class="Properties">
+            <thead>
+                <tr>
+                    <th>اسم التطبيق </th>
+                    <th>اسم الشركه المطورة</th>
+                    <th>مجال الاستخدام </th>
+                    <th>مجاني/غير مجاني </th>
+                    <th>اختيار</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ChatGPT</td>
+                    <td>OpenAI</td>
+                    <td>الدردشة.كتابة المحتوى.التعليم.البرمجة</td>
+                    <td><button class="BB" onclick="toggleDetails(this)">مجاني  </button></td>
+                    <td><input type="checkbox" name="selectProperty"></td>
+                </tr>
+                <tr class="details" style="display:none;">
+                    <td colspan="5">
+                        <div class="content">
+                         <p>https://chat.openai.com رابط التطبيق: </p>
+
+                         <p>شرح مبسط: يجيب على الاسئلة وينشئ محتوى ذكي باسلوب بشري </p>
+                        </div>
+                        <div class="img">
+                            <img src="img/logo1.jpg">
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Midjourney</td>
+                    <td> Midjourney Inc </td>
+                    <td>انشاء الصور والفن الرقمي من الصوروالفن الرقمي من النصوص</td>
+                    <td><button class="BB" onclick="toggleDetails(this)"> غير مجاني </button></td>
+                    <td><input type="checkbox" name="selectProperty"></td>
+                </tr>
+                <tr class="details" style="display:none;">
+                    <td colspan="5">
+                        <div class="content">
+                            <p> https://www.midjourney.com/ رابط التطبيق: </p>
+                            <p>  شرح مبسط : يحول النصوص الى صور فنية واقعية </p>
+                        </div>
+                        <div class="img">
+                            <img src="img/logo2.jpg">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Grammarly</td>
+                    <td>Grammarly lnc</td>
+                    <td> تدقيق لغويي .تحسين الكتابة</td>
+                    <td><button class="BB" onclick="toggleDetails(this)">  مجاني</button></td>
+                    <td><input type="checkbox" name="selectProperty"></td>
+                </tr>
+                <tr class="details" style="display:none;">
+                    <td colspan="5">
+                        <div class="content">
+                            <p>https://www.grammarly.com رابط التطبيق: </p>
+                            <p> شرح مبسط:يصحح الاخطاء اللغوية ويحسن الاسلوب </p>
+                        </div>
+                        <div class="img">
+                            <img src="img/logo5.jpg">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Notion Al</td>
+                     <td> Notion Labs lnc</td>
+                    <td>الانتاجية.التلخيص.كتابة الملاحظات</td>
+                    <td><button class="BB" onclick="toggleDetails(this)"> غير مجاني </button></td>
+                    <td><input type="checkbox" name="selectProperty"></td>
+                </tr>
+                <tr class="details" style="display:none;">
+                    <td colspan="5">
+                        <div class="content">
+                            <p>https://www.notion.so رابط التطبيق:</p>
+                            <p>شرح مبسط:يساعد في كتابة الملاحظات وتلخيصها بذكاء </p>
+                        </div>
+                        <div class="img">
+                            <img src="img/logo3.jpg">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Runway Ml</td>
+                    <td>Runway Ml lnc</td>
+                    <td>انشاء وتحرير الفيديوهات بالتحرير الاصطناعي</td>
+                    <td><button class="BB" onclick="toggleDetails(this)"> غير مجاني</button></td>
+                    <td><input type="checkbox" name="selectProperty"></td>
+                </tr>
+                <tr class="details" style="display:none;">
+                    <td colspan="5">
+                        <div class="content">
+                            <p> https://runwayml.com/ رابط التطبيق: </p>
+                            <p> شرح مبسط:ينشئ ويعدل فيديوهات من  نصوص بسهولة</p>
+                        </div>
+                        <div class="img">
+                            <img src="img/logo4.jpg">
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</body>
+
+</html>

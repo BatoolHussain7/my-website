@@ -1,0 +1,248 @@
+:root {
+    --mian-color: #e6b5bd;
+    --mian-color-alt: #e6b5bd;
+    --translation: 0.3s;
+    --Padding-top: 100px;
+    --Padding-bottom: 100px;
+    --background-color: #ececec;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    /* direction: rtl; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bar {
+    background-color: #a0c3d3;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    max-width: 50px;
+    border: 1px solid #d1d5d9;
+    border-radius: 50%;
+}
+
+.pages ul {
+    display: flex;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.pages ul li {
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+.pages ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.background img {
+    width: 100%;
+    height: 500px;
+    filter: brightness(0.5);
+}
+
+
+
+.background .text {
+    background-color: #445e767e;
+    max-width: 50%;
+    position: absolute;
+    left: -10px;
+    transform: translateY(-350px);
+    padding: 30px 2%;
+    border: 1px solid rgb(225, 237, 243);
+    border-radius: 10px;
+}
+
+.background .text h3 {
+    font-size: 2em;
+    padding: 5px 0;
+}
+
+.background .text p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    margin: 10px 0;
+}
+
+.card .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 1.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card .card1 .img img {
+    max-width: 40%;
+    border: 2px solid;
+}
+
+
+
+
+.card .card1 .img {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card1 .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+
+
+.card .card1 .details p {
+    font-size: 20px;
+}
+
+
+.info {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #dfdfe2;
+}
+
+.info p {
+    padding: 10px 0;
+}
+
+.info p span {
+    font-weight: 800;
+}
+
+.info .link a {
+    text-decoration: none;
+    color: #6867b4;
+    font-weight: 900;
+    font-size: large;
+}
+
+.inform {
+    border-radius: 6px;
+    padding: 20px 50px;
+    /* margin: 10px 5%; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+    align-items: center;
+    background-color: #ebf2f3;
+}
+
+.inform .image {
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75px;
+}
+
+.inform .image img {
+    width: 75%;
+    max-width: 75%;
+    border: 2px solid #0c2c94;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+}
+
+.inform .text p {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #555556;
+    border: 2px solid #ecebed;
+    padding: 30px;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+}
+
+.communication{
+margin: 10px 0 0 0;
+padding: 10px;
+background-color: #fdffff;
+}
+
+.communication ul{
+list-style: none;
+    display: grid;
+    grid-template-columns: 33% 38% 27%;
+    grid-gap: 10px;
+    padding: 0 25px;
+    }
+    .communication ul li{
+        padding: 0 20px ;
+        font-weight: 600;
+    }
+    .communication .last p{
+        text-align: center;
+            font-size: 15px;
+            max-width: 60%;
+            position: relative;
+            transform: translateX(30%);
+            padding: 10px 0;
+    }
+    table{
+        width: 100%;
+        border-spacing: 10px;
+    }
+th{
+background: #3b6ca5;;
+}
+td
+{
+    height: 30px;
+    text-align: center;
+border: 2px solid #1d4a7c;
+}
+
+.BB{
+        width: 50px;
+        height: 20px;
+      
+}
+.details td .img img{
+        width: 40px;
+            height: 10%;
+            min-width: 15%;
+            max-width: 15%;
+            margin: 0 15px;
+}
+.details td .content{
+        display: flex;
+            justify-content: space-around;
+            margin: 15px;
+            padding: 10px;
+}
